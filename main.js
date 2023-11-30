@@ -18,8 +18,8 @@ function kirimData() {
         alert("Login Berhasil" , document.getElementById("abut").click());
     }
 
-    const user2 = "Giovani";
-    const pass2 = 438; 
+    const user2 = "Adhito";
+    const pass2 = 921; 
     
     if (username == "" ||  password == ""){
         alert("harap isi username dan pasword")
@@ -30,7 +30,21 @@ function kirimData() {
     }else {
         alert("Login Berhasil" , document.getElementById("abut").click());
 
-    }   
+    }
+
+    const user3 = "ryaljombang";
+    const pass3 = 781; 
+    
+    if (username == "" ||  password == ""){
+        alert("harap isi username dan pasword")
+    }else if (password != pass3 ) {
+
+    }else if (username != user3 ) {
+
+    }else {
+        alert("Login Berhasil" , document.getElementById("abut").click());
+
+    }
     
      
 }
